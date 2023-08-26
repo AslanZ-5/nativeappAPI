@@ -1,3 +1,4 @@
+from django.shortcuts import HttpResponse
 from .models import Article
 from .serializers import ArticleSerializer
 from django.http import JsonResponse
